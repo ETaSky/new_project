@@ -27,11 +27,10 @@ YOUR PAPER'S ABSTRACT GOES HERE
 	|- data           # raw and primary data, are not changed once created
 	| |- references/  # reference files to be used in analysis
 	| |- raw/         # raw data, will not be altered
-	| |- mothur/      # mothur processed data
 	| +- process/     # cleaned data, will not be altered once created;
 	|                 # will be committed to repo
 	|
-	|- code/          # any programmatic code
+	|- code/          # any programmatic code, including bash scripts to run pipeline, setup folders, etc.
 	|
 	|- results        # all output from workflows and analyses
 	| |- tables/      # text version of tables to be rendered with kable in R
@@ -44,7 +43,8 @@ YOUR PAPER'S ABSTRACT GOES HERE
 	|
 	+- Makefile       # executable Makefile for this study, if applicable
 
-
+```
+Below sections will need to be updated.
 ### How to regenerate this repository
 
 #### Dependencies and locations
@@ -59,7 +59,7 @@ YOUR PAPER'S ABSTRACT GOES HERE
 
 #### Running analysis
 
-```
+
 git clone https://github.com/SchlossLab/LastName_BriefDescription_Journal_Year.git
 make write.paper
 ```
