@@ -1,4 +1,4 @@
-Download the [latest release](https://github.com/SchlossLab/new_project/releases/latest) to the directory and decompress
+Download the [latest release](xxx) to the directory and decompress
 
 
 ## TITLE OF YOUR PAPER GOES HERE
