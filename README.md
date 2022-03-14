@@ -1,4 +1,4 @@
-Download the [latest release](xxx) to the directory and decompress
+Download the [latest release](https://gitlab.com/xbiome-wjc/new_project_template/-/releases) to the directory and decompress
 
 
 ## TITLE OF YOUR PROJECT GOES HERE
@@ -39,7 +39,7 @@ YOUR PROJECT'S ABSTRACT GOES HERE
 	| |- study.md    	# Markdown (GitHub) version of the *.Rmd file
 	| |- study.tex    	# TeX version of *.Rmd file
 	| |- study.pdf    	# PDF version of *.Rmd file
-	| |- header.tex   	# LaTeX header file to format pdf version of manuscript
+	| |-	 header.tex   	# LaTeX header file to format pdf version of manuscript
 	| |- references.bib # BibTeX formatted references
 	| |- XXXX.csl     	# csl file to format references for journal XXX
 	|
