@@ -4,8 +4,7 @@
 
 .DS_Store
 
-data/*/*
-!data/process/*
+data/raw/*
 !README.md
 
 *.qsub*
