@@ -20,9 +20,9 @@ project
 |
 |- data           	# raw and primary data, are not changed once created
 | |- metadata_raw/	# the original study metadata, probably in excel format, should be commited to repo
-| |- raw/         	# raw data, will not be altered, should be hosted on /share/projects/Analytics/, would typically be gitignored
+| |- raw/         	# raw data, will not be altered, mostly pipeline output, should typically be hosted on server already
 | |- references/  	# reference files to be used in analysis, NOTE: large reference should be hosted on server
-| +- processed/   	# cleaned data, will not be altered once created; will be committed to repo
+| +- processed/   	# cleaned data, will not be altered once created; some big files may be hosted on 102:/share/projects/Analytics/; may or may not be committed to repo
 |
 |- results        	# all output from workflows and analyses
 | |- tables/    	# text version of tables to be rendered with kable in R
