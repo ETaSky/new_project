@@ -8,7 +8,7 @@ YOUR PROJECT'S ABSTRACT GOES HERE
 
 
 ### Overview
-
+```
 	project
 	|- README          # the top level description of content (this doc)
 	|- CONTRIBUTING    # instructions for how to contribute to your project
