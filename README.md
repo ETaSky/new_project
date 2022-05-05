@@ -37,29 +37,5 @@ YOUR PAPER'S ABSTRACT GOES HERE
 	| |- figures/     # graphs, likely designated for manuscript figures
 	| +- pictures/    # diagrams, images, and other non-graph graphics
 	|
-	|- exploratory/   # exploratory data analysis for study
-	| |- notebook/    # preliminary analyses
-	| +- scratch/     # temporary files that can be safely deleted or lost
-	|
-	+- Makefile       # executable Makefile for this study, if applicable
-
-```
-Below sections will need to be updated.
-### How to regenerate this repository
-
-#### Dependencies and locations
-* Gnu Make should be located in the user's PATH
-* mothur (v1.XX.0) should be located in the user's PATH
-* R (v. 3.X.X) should be located in the user's PATH
-* R packages:
-  * `knitr`
-  * `rmarkdown`
-* etc
-
-
-#### Running analysis
-
-
-git clone https://github.com/SchlossLab/LastName_BriefDescription_Journal_Year.git
-make write.paper
+	+- doc/   # other documents
 ```
