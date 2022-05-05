@@ -1,10 +1,9 @@
-Download the [latest release](xxx) to the directory and decompress
+Download the [latest release](https://gitlab.com/xbiome-wjc/new_project_template/-/releases) to the directory and decompress
 
 
-## TITLE OF YOUR PAPER GOES HERE
+## TITLE OF YOUR PROJECT GOES HERE
 
-YOUR PAPER'S ABSTRACT GOES HERE
-
+YOUR PROJECT'S ABSTRACT GOES HERE
 
 
 
@@ -14,6 +13,7 @@ YOUR PAPER'S ABSTRACT GOES HERE
 	|- README          # the top level description of content (this doc)
 	|- CONTRIBUTING    # instructions for how to contribute to your project
 	|- LICENSE         # the license for this project
+	|- .gitignore		# the local gitignore to ignore project specific files
 	|
 	|- submission/
 	| |- study.Rmd    # executable Rmarkdown for this study, if applicable
@@ -38,4 +38,15 @@ YOUR PAPER'S ABSTRACT GOES HERE
 	| +- pictures/    # diagrams, images, and other non-graph graphics
 	|
 	+- doc/   # other documents
+```
+
+Other folders that may commonly be presented in a project folder includes:
+```
+**/archive/		# store previous major version that are not used in final analysis should be committed
+**/scratch/		# previous temporary files that will be deleted after finishing should not be committed.
+**/assets/		# the folder stores the template, snippets, utility scripts etc.
+renv/			# the folder that may be created by renv package for r project management
+*.Rproj			# the r project configuration file
+.gitattribute	# the git lfs 
+.renvignore		# to ignore files so that renv won't check for packages
 ```
