@@ -1,0 +1,6 @@
+Type: project
+Description: My project.
+Depends:
+    tidyverse,
+    renv,
+    here
