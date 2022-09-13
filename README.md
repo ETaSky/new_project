@@ -31,8 +31,9 @@ YOUR PROJECT'S ABSTRACT GOES HERE
 	|                 # will be committed to repo
 	|
 	|- code/          # any programmatic code, including bash scripts to run pipeline, setup folders, etc.
+	| |- outputs/	  # any direct outputs from running analysis
 	|
-	|- results        # all output from workflows and analyses
+	|- results        # all figs, tbls, etc. from workflows and analyses
 	| |- tables/      # text version of tables to be rendered with kable in R
 	| |- figures/     # graphs, likely designated for manuscript figures
 	| +- pictures/    # diagrams, images, and other non-graph graphics

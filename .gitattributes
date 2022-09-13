@@ -3,3 +3,10 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.rds filter=lfs diff=lfs merge=lfs -text
 *.RDS filter=lfs diff=lfs merge=lfs -text
+
+# git diff ignore
+*.pdf -diff
+*.png -diff
+*.xlsx -diff
+*.log -diff
+results/ -diff
