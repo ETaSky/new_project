@@ -1,8 +1,8 @@
-# dataset
-*.tsv filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.rds filter=lfs diff=lfs merge=lfs -text
-*.RDS filter=lfs diff=lfs merge=lfs -text
+# dataset temporarily disable lfs capability for all new repository since it is not well accepted
+#*.tsv filter=lfs diff=lfs merge=lfs -text
+#*.csv filter=lfs diff=lfs merge=lfs -text
+#*.rds filter=lfs diff=lfs merge=lfs -text
+#*.RDS filter=lfs diff=lfs merge=lfs -text
 
 # git diff ignore
 *.pdf -diff
