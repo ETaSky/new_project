@@ -10,3 +10,9 @@
 *.xlsx -diff
 *.log -diff
 results/ -diff
+*.tsv -diff
+*.csv -diff
+*.rds -diff
+*.RDS -diff
+*.xlsx -diff
+**/Archive* -diff
